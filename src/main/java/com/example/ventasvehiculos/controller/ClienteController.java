@@ -1,7 +1,7 @@
 package com.example.ventasvehiculos.controller;
 
-import com.example.ventasvehiculos.controller.model.Cliente;
-import com.example.ventasvehiculos.controller.service.ClienteService;
+import com.example.ventasvehiculos.model.Cliente;
+import com.example.ventasvehiculos.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

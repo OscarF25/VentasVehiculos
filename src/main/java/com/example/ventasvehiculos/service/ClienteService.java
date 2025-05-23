@@ -1,7 +1,7 @@
-package com.example.ventasvehiculos.controller.service;
+package com.example.ventasvehiculos.service;
 
-import com.example.ventasvehiculos.controller.model.Cliente;
-import com.example.ventasvehiculos.controller.repository.ClienteRepository;
+import com.example.ventasvehiculos.model.Cliente;
+import com.example.ventasvehiculos.repository.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

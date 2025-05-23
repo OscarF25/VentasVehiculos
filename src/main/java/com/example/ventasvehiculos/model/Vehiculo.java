@@ -1,4 +1,4 @@
-package com.example.ventasvehiculos.controller.model;
+package com.example.ventasvehiculos.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
