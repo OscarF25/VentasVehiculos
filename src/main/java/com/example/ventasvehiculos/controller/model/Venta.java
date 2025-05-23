@@ -10,14 +10,15 @@ import java.util.Date;
 public class Venta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long codigoVenta;
+    private Long id;
+
     private Date fecha;
 
-    @ManyToOne
+    @ManyToOne  // Una venta tiene un cliente
     @JoinColumn(name = "cliente_id")
     private Cliente cliente;
 
-    @OneToOne
-    @JoinColumn(name = "vehiculo_placa")
+    @ManyToOne  // Una venta tiene un vehículo
+    @JoinColumn(name = "vehiculo_id")
     private Vehiculo vehiculo;
 }
